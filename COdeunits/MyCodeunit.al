@@ -10,6 +10,7 @@ codeunit 50103 pvnCodeunit
 
     var
         myInt: Integer;
+        customerobj: Record Customer;
 
     /// <summary>
     /// 
@@ -33,5 +34,12 @@ codeunit 50103 pvnCodeunit
         myInt := 25;
         result := v1 + myInt;
         Message('Result is %1', result);
+    end;
+
+    procedure MyProcedure()
+    var
+        myInt: Integer;
+    begin
+
     end;
 }
