@@ -8,7 +8,7 @@
             "environmentType": "Sandbox",
             "environmentName": "BCTechTraining",
             "tenant": "bc005111-c3b5-4436-94e0-898444c7b060",
-            "startupObjectId": 50100,
+            "startupObjectId": 50102,
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,

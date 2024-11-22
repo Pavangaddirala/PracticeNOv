@@ -44,6 +44,45 @@ table 50100 PvnEmployeeTable
         {
             DataClassification = ToBeClassified;
         }
+        field(9; Field9; Enum PvnENums)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(10; Field10; Text[20])
+        {
+            DataClassification = ToBeClassified;
+
+        }
+        field(11; Field11; Option)
+        {
+            DataClassification = ToBeClassified;
+            OptionCaption = 'Yes,NO';
+            OptionMembers = "Yes","NO";
+        }
+
+        field(12; Field12; Boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(13; Field13; Boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(14; Field14; Boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(15; Field15; Boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(16; MyField16; Blob)
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
+
 
 
 
