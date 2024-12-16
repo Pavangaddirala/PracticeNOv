@@ -1,11 +1,9 @@
-
-page 50102 "Employees List"
+page 50104 SalaryPage
 {
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = PvnEmployeeTable;
-    CardPageId = PvnEmployeePage;
+    SourceTable = pvnEmployeeSalaryTable;
 
     layout
     {
@@ -13,29 +11,31 @@ page 50102 "Employees List"
         {
             repeater(GroupName)
             {
-                field(Name; Rec."Employee ID")
-                {
-                    ApplicationArea = all;
-                    Style = Favorable;
-                }
-                field(Name1; Rec."Employye Name")
-                {
-                    Style = StrongAccent;
-
-                }
-                field(Name2; Rec.Location)
+                field(id; Rec."Employee ID")
                 {
 
                 }
-                field(Name3; Rec.Salary)
-                {
-
-                }
-                field(Name4; Rec.PhoneNumber)
+                field(Name; Rec."Total Salary")
                 {
 
                 }
 
+                field(Name1; Rec.Max)
+                {
+
+                }
+                field(Name2; Rec.Min)
+                {
+
+                }
+                field(Name3; Rec.Avg)
+                {
+
+                }
+                field(Name4; Rec."Total Entries")
+                {
+
+                }
 
             }
         }
@@ -51,7 +51,7 @@ page 50102 "Employees List"
         {
             action(ActionName)
             {
-                Caption = 'My LIst Action';
+
                 trigger OnAction()
                 begin
 

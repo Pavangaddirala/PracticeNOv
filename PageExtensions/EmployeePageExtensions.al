@@ -24,9 +24,11 @@ pageextension 50102 EmployeePageExt extends "Customer Card"
             field(Myfield3; Rec.pvnfield7)
             {
                 ApplicationArea = all;
+
             }
         }
     }
+
 
     actions
     {

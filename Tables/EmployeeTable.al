@@ -1,3 +1,4 @@
+
 table 50100 PvnEmployeeTable
 {
     DataClassification = ToBeClassified;
@@ -8,6 +9,7 @@ table 50100 PvnEmployeeTable
         field(1; "Employee ID"; Integer)
         {
             DataClassification = ToBeClassified;
+
 
 
         }
@@ -40,11 +42,11 @@ table 50100 PvnEmployeeTable
         {
             DataClassification = ToBeClassified;
         }
-        field(8; MyField2; Boolean)
+        field(8; UserPassword; Text[20])
         {
             DataClassification = ToBeClassified;
         }
-        field(9; Field9; Enum PvnENums)
+        field(9; Field9; Enum PvnmyEnum)
         {
             DataClassification = ToBeClassified;
         }
@@ -64,24 +66,61 @@ table 50100 PvnEmployeeTable
         {
             DataClassification = ToBeClassified;
         }
-        field(13; Field13; Boolean)
+        field(13; Field14; Text[20])
         {
             DataClassification = ToBeClassified;
         }
-        field(14; Field14; Boolean)
+        field(14; Field15; Text[20])
         {
             DataClassification = ToBeClassified;
         }
-        field(15; Field15; Boolean)
+        field(15; MyField19; Text[20])
         {
             DataClassification = ToBeClassified;
         }
-        field(16; MyField16; Blob)
+        field(16; MyField18; Text[20])
         {
             DataClassification = ToBeClassified;
 
 
         }
+        field(17; max; Boolean)
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
+        field(18; min; Boolean)
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
+        field(19; "iS exist?"; Blob)
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
+        field(20; Sum; Integer)
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
+        field(21; MyField17; Text[30])
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
+        field(22; MyField16; Blob)
+        {
+            DataClassification = ToBeClassified;
+
+
+        }
+
 
 
 

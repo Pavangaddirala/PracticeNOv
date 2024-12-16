@@ -1,24 +1,22 @@
 
-enum 50105 PvnENums
+enum 50106 PvnmyEnum
 {
     Extensible = true;
 
-    value(0; MyValue)
+    value(0; Enum1)
     {
     }
-    value(1; MyValue1)
+    value(1; ENum2)
     {
     }
-    value(2; MyValue2)
+    value(2; ENum3)
     {
     }
-    value(3; MyValue3)
+    value(3; ENum4)
     {
     }
-    value(4; MyValue4)
+    value(4; ENum5)
     {
     }
-    value(5; MyValue5)
-    {
-    }
+
 }
